@@ -1,0 +1,19 @@
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: baseline;
+  gap: 50px;
+}
+
+.contacts-map {
+  max-width: 700px;
+  width: 90%;
+}
+
+.contacts-info {
+  font-weight: 300;
+  display: grid;
+  gap: 30px;
+  line-height: 2;
+}

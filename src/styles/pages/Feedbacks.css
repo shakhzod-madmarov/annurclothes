@@ -1,0 +1,17 @@
+.feedbacks__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.feedbacks__list--item {
+  width: 280px;
+  height: auto;
+}
+
+.feedbacks__list--item img {
+  object-fit: contain;
+  width: 100%;
+}

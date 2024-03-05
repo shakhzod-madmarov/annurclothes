@@ -1,8 +1,17 @@
+:root {
+  --primary-color: rgba(64, 64, 64, 1);
+  --secondary-color: rgba(149, 147, 143, 1);
+  --black-color: background: rgba(1, 1, 1, 1);
+
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--primary-color);
 }
 
 a {
@@ -12,5 +21,13 @@ a {
 
 body {
   min-height: 100dvh;
-  min-width: 100dvw;
+  width: 100dvw;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1852px;
+  width: 95%;
+  margin: 0 auto;
 }

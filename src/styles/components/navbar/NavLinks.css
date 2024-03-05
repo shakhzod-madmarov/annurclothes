@@ -1,0 +1,13 @@
+.navLinks__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  justify-content: space-between;
+  align-items: baseline;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.navLinks__list--item.active a {
+  font-weight: 700;
+}

@@ -1,0 +1,35 @@
+.aboutus__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.aboutus__list--item {
+  width: 350px;
+  height: auto;
+  position: relative;
+}
+
+.aboutus__list--item img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.aboutus__list--item p {
+  position: absolute;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  width: 90%;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutus__list--item span {
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+}

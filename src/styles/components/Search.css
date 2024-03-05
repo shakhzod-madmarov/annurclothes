@@ -1,0 +1,22 @@
+.nav-search {
+  color: var(--primary-color);
+}
+
+.search__label {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+.nav-search input {
+  border: none;
+  border-bottom: 1px solid var(--primary-color);
+  width: 200px;
+  height: 28px;
+  padding: 10px 0;
+}
