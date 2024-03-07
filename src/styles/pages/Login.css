@@ -1,0 +1,51 @@
+.loginPage {
+  height: 85vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.login,
+.registration {
+  width: 35%;
+  display: grid;
+  gap: 30px;
+}
+
+.login h2,
+.registration h2 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.form {
+  display: grid;
+  gap: 6px;
+}
+
+.form__label {
+  color: var(--input-label-color);
+  font-size: 13px;
+}
+
+.form__input {
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid var(--input-border-color);
+  color: var(--input-color);
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+.form__btn {
+  border: 1px solid var(--input-label-color);
+  border-radius: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-size: 14px;
+  height: 46px;
+  cursor: pointer;
+}

@@ -1,8 +1,10 @@
 :root {
   --primary-color: rgba(64, 64, 64, 1);
   --secondary-color: rgba(149, 147, 143, 1);
-  --black-color: background: rgba(1, 1, 1, 1);
-
+  --black-color: rgba(1, 1, 1, 1);
+  --input-color: rgba(217, 217, 217, 1);
+  --input-border-color: rgba(217, 217, 217, 1);
+  --input-label-color: rgba(89, 89, 89, 1);
 }
 
 * {

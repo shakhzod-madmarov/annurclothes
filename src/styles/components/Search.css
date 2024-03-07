@@ -15,7 +15,7 @@
 
 .nav-search input {
   border: none;
-  border-bottom: 1px solid var(--primary-color);
+  border-bottom: 1px solid var(--input-border-color);
   width: 200px;
   height: 28px;
   padding: 10px 0;
